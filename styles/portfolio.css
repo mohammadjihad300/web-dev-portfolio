@@ -132,3 +132,64 @@ main section{
     border-radius: 5px;
     box-shadow: 0px 6px 50px 0px rgb(218, 218, 218);
 }
+.resume{
+    display: flex;
+    gap: 24px;
+}
+.resume-head{
+    font-weight: bold;
+    margin-top: 80px;
+    font-size: 30px;
+    color: rgba(71, 71, 71, 1);
+}
+.resume-row-head{
+    font-weight: bold;
+    font-size: 25px;
+    color: rgba(71, 71, 71, 1);
+    margin-bottom: 05px;
+}
+.resume-row-sub-head{
+    color: rgba(117, 117, 117, 1);
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 5px;
+}
+.resume-text{
+    color: rgba(117, 117, 117, 1);
+    font-size: 16px;
+}
+.resume-colam-row{
+    margin-bottom: 30px;
+}
+.almost-last-button{
+    text-align: center;
+    margin-top: 30px;
+}
+footer{
+    display: flex;
+    padding: 130px 230px;
+    gap: 117px;
+}
+.the-end input{
+    border-radius: 5px;
+    width: 100%;
+    height: 64px;
+    border: none;
+    margin-bottom: 24px;
+}
+.icon-gap a{
+    margin-right: 20px;
+}
+.last-problem{
+    margin-top: 24px;
+}
+footer input[type=text], footer input[type=email], footer textarea{
+    font-weight: 100%;
+    font-size: 13px;
+    padding: 10px 20px;
+}
+footer textarea{
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+}
